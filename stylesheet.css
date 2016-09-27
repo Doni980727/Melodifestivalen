@@ -1,6 +1,19 @@
 #melodi{
 	float: right;
-	width: 500px;
+	/*width: 500px;*/
 }
 
-#text{}
+.table{
+	width: 70%;
+	margin: auto auto;
+	margin-bottom: 50px;
+}
+
+td img{
+	border-radius: 50px 50px 50px 50px;
+	-webkit-transition: 1s
+}
+td img:hover{
+	border-radius: 10px 10px 10px 10px;
+	-webkit-transition: 1s;
+}
